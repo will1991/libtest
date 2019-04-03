@@ -1,0 +1,15 @@
+1. /etc/gitconfig (基本不使用）git config --system
+2. ~/.gitconfig(常用）git config --global
+3. 針對特定項目的 .git/config : git config --local
+
+git rm :
+  1.刪除文件
+  2.將刪除的文件納入到緩存區
+恢復的方法：
+  a. git reset HEAD <FILE>  : 從暫存區恢復到工作區
+  b. git checkout -- <FILE> : 丟棄掉工作區修改  
+
+rm:
+  1.刪掉文件，並不納入到暫存區
+恢復辦法：
+  a. git checkout -- <FILE>

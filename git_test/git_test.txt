@@ -1,0 +1,13 @@
+commit 之後　修改內容才能夠保存到當前所在的分支
+
+＃＃ test-test 
+
+git branch 指令在 commit 一次才能 查看git　branch list
+test "git log --graph"
+
+new branch after the test-branch 
+
+recover a
+recover b
+
+recover c
