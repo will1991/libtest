@@ -1,1 +1,4 @@
 build-flann_test-Desktop-Default/
+**/build
+*/.viscode/ipch
+**/ipch
